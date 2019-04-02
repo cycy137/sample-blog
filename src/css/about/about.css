@@ -1,0 +1,25 @@
+.about-container {
+  padding: 0px 50px;
+  background-color: rgb(255, 255, 255);
+}
+
+.about-detial {
+  height: 30%;
+  text-align: center;
+  max-height: 300px;
+  margin: 20px 0px;
+}
+
+.about-detial ul {
+  margin-top: 10px;
+}
+
+.about-detial li {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.about-detial a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
