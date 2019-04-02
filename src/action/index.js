@@ -8,7 +8,7 @@ const receiveIssues = json => ({ type: RECEIVE_ISSUES, posts: json });
 function fetchIssues() {
   return (dispatch) => {
     dispatch(requestIssues());
-    return axios.get('https://api.github.com/repos/axuebin/articles/issues', {
+    return axios.get('https://raw.githubusercontent.com/cycy137/data/master/sampledata', {
       params: {
         creator: 'axuebin',
         labels: 'blog',
